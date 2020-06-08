@@ -1,0 +1,10 @@
+Personal API access key = 37167987e1b7e42a5da0cfc1edfb540a
+Login user
+Password jWMvP5F1XdjM
+setx TESTLINK_API_PYTHON_DEVKEY=37167987e1b7e42a5da0cfc1edfb540a    
+setx TESTLINK_API_PYTHON_SERVER_URL=http://192.168.18.25/lib/api/xmlrpc/v1/xmlrpc.php
+
+python
+import testlink
+import os
+Set in Python: os.environ["TESTLINK_API_PYTHON_SERVER_URL"]="http://192.168.18.25/testlink/lib/api/xmlrpc/v1/xmlrpc.php"
