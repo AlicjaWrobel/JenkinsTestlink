@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="StacjaDowodzeniaLisaPustyni" name="pytest" skipped="0" tests="1" time="0.142" timestamp="2020-06-09T22:57:10.997022"><testcase classname="run_test_module.TestSimple" file="run_test_module.py" line="19" name="test_addition" time="0.001"></testcase></testsuite></testsuites>

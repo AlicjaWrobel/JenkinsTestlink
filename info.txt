@@ -7,4 +7,4 @@ setx TESTLINK_API_PYTHON_SERVER_URL=http://192.168.18.25/lib/api/xmlrpc/v1/xmlrp
 python
 import testlink
 import os
-Set in Python: os.environ["TESTLINK_API_PYTHON_SERVER_URL"]="http://192.168.18.25/testlink/lib/api/xmlrpc/v1/xmlrpc.php"
+Set in Python: os.environ["TESTLINK_API_PYTHON_SERVER_URL"]="http://192.168.18.25/lib/api/xmlrpc/v1/xmlrpc.php"

@@ -8,7 +8,7 @@ from unittest import (
     TextTestRunner)
 import os
 from pprint import pprint
-#from calculator import addition
+import calculator as cal
 
 OK = 'ok'
 FAIL = 'fail'
@@ -18,7 +18,7 @@ SKIP = 'skip'
 class TestSimple(unittest.TestCase):
 
     def test_addition(self):
-        sum = addition(3,5)
+        sum = cal.addition(3,5)
         print(sum)
         self.assertTrue(sum==8)
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
   res = result.jsonify()['TestSimple']
  
  #try:
-  testLink.reportTCResult(testcaseid=35 , testplanid=2 , buildname='Build_1.0.0', notes='some notes', status='p', user='tester',steps=[
+  testLink.reportTCResult(testcaseid=35 , testplanid=3 , buildname='Build_1.0.0', notes='some notes', status='p', user='tester',steps=[
   #testLink.reportTCResult(None, 2, None, 'p', '', guess=True, platformname='NewPlatform', execduration=3.9, timestamp='2015-09-18 14:33', steps=[
    {'step_number' : 1, 'result' : 'p','notes' : 'Invoked'},
    {'step_number' : 2, 'result' : 'p','notes' : 'Succeeded'}

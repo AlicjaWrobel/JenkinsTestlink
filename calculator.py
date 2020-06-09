@@ -69,5 +69,5 @@ def addition(number_1, number_2):
   sum = number_1 + number_2
   return sum
 
-calculator()
+#calculator()
 #addition(3,5)
