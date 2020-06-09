@@ -80,7 +80,7 @@ if __name__ == '__main__':
   res = result.jsonify()['TestSimple']
  
  #try:
-  testLink.reportTCResult(testcaseid=31 , testplanid=2 , buildname='Build_1.0.0', notes='some notes', status='p', user='tester',steps=[
+  testLink.reportTCResult(testcaseid=43 , testplanid=2 , buildname='Build_1.0.0', notes='some notes', status='p', user='tester',steps=[
   #testLink.reportTCResult(None, 2, None, 'p', '', guess=True, platformname='NewPlatform', execduration=3.9, timestamp='2015-09-18 14:33', steps=[
    {'step_number' : 1, 'result' : 'p','notes' : 'Invoked'},
    {'step_number' : 2, 'result' : 'p','notes' : 'Succeeded'}
